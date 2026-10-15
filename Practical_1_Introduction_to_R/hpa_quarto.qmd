@@ -1,0 +1,21 @@
+---
+title: "Brain Data Analysis"
+author: "Kyra B"
+format: html
+---
+This analysis will look at which genes are elevated in the forebrain using information form the Human Protein Atlas.
+```{r}
+sum(180,57,83,110)
+```
+ 430 genes are elevated in the human forebrain. 
+```{r}
+sum(109,157,31,45)
+```
+ 
+342 genes are elvated in the pig forebrain. 
+```{r}
+sum(55,185,60,98)
+```
+398 genes are elevated in the mouse forebrain. 
+Humans had the highest number of genes with regionally elevated expression.
+
