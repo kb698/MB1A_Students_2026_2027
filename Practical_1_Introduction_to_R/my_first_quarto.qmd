@@ -12,3 +12,4 @@ total_colony_diameter <- sum(2.2, 1.6, 3.3, 4.0)
 print(total_colony_diameter)
 ```
 The total diameter of my colonies is 11.1 mm.
+
