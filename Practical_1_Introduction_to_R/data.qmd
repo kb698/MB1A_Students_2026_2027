@@ -1,0 +1,40 @@
+---
+title: "Practical_1_Introduction_to_R/ukhsa_data_analysis.qmd."
+---
+
+```{r}
+library(tidyverse)
+library(gt)
+```
+
+
+```{r}
+library(tidyverse)
+library(gt)
+```
+
+```{r}
+lead <- read_csv("ukhsa-chart-download-2.csv")
+
+gt(head(lead))
+
+```
+```{r}
+lead <- read_csv("ukhsa-chart-download-2.csv")
+```
+```{r}
+```
+
+
+```{r}
+ggplot(lead)
+```
+```{r}
+ggplot(lead, aes(
+  x = year,
+  y = metric_value
+)) + geom_line(colour = "red")+
+xlab("Year")+
+ylab("Lead Exposure Cases in Children")
+```
+
